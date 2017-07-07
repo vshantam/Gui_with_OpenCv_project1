@@ -65,7 +65,7 @@ try:
 	import cv2
 except ImportError:
 	print "Installing OPENCV.."
-	os.system("pip install opencv-python")
+	os.system("pip install python-opencv")
 	print("Installed..")
 
 print
