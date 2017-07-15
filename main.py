@@ -12,7 +12,7 @@ class mains:
 		global master
 		master=Tk()
 		master.geometry('{}x{}'.format(1080,480))
-		greetings="{}!, PLease select an option Below to Continue".format("Guest!")
+		greetings="{}!, PLease select an option Below to Continue".format("shantam")#my name
 		msg=Label(master,text=greetings)
 		msg.configure(background='lightgreen', font=('times', 24, 'italic'))
 		msg.pack()
