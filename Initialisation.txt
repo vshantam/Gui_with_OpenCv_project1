@@ -1,0 +1,11 @@
+To install the appliction on any windows machines it requires some initialisation .
+
+steps :1> copy the entire directory to the C:// (C:/ dirve)
+
+step :2> fimd the main.exe executable file in the directory in the dist folder and copy the executable file to any location of your choice.
+
+step:3> run the executable file directly and you are good to go.
+
+step :4> remenber the login credentials or refer login_cred.txt in the perticular directory.
+
+(you can use the test images or any of your choce but try to use pic fo size less than (720x480) for better experience.)
