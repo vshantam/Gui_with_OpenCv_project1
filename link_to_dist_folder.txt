@@ -1,4 +1,5 @@
 
 (Unable to upload dist folder due to git memory issue)
 Download the dist folder from the link:->https://www.dropbox.com/sh/jtwqifxnrim2e3u/AAAjy2tJAIyabpNnLXuRnk74a?dl=0
-copy the folder to the Gui_with_OpenCv_project directory.
+create the 'dist' folder  to 'Gui_with_OpenCv_project directory'
+copy the file to dist folder present in  the Gui_with_OpenCv_project directory.
