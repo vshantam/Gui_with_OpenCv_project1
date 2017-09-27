@@ -22,7 +22,7 @@ def check_cred():
         		master.title('Try again. Attempt %i/%i' % (sum(failures)+1, failure_max))
  
 
-def login:
+def login():
 	check_cred()
 
 
