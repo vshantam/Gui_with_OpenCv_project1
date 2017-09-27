@@ -27,7 +27,7 @@ def login():
 
 
 global quit
-def quit:
+def quit():
 	master.destroy()
 
 
