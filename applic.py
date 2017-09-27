@@ -5,7 +5,7 @@ class ImagePro:
 	def App(self):
 		# grab a reference to the image panels
 		global panelA, panelB
- 
+ 		panelA=None;PanelB=None
 	# open a file chooser dialog and allow the user to select an input
 	# image
 		path=tkFileDialog.askopenfilename(initialdir = "/",title = "Select file",filetypes = (("jpeg files","*.jpeg"),("jpg files","*.jpg"),("png files","*.png"),("all files","*.*")))
