@@ -26,8 +26,8 @@ def login():
 	check_cred()
 
 
-global quit
-def quit():
+global kills
+def kills():
 	master.destroy()
 
 
@@ -42,7 +42,7 @@ password = Entry(master)
 username.grid(row=0, column=1)
 password.grid(row=1, column=1)
 
-Button(master, text='Quit', command=quit).grid(row=3, column=0, sticky=W, pady=4)
+Button(master, text='Quit', command=kills).grid(row=3, column=0, sticky=W, pady=4)
 Button(master, text='login', command=login).grid(row=3, column=1, sticky=W, pady=4)
 
 mainloop( )
