@@ -2,11 +2,12 @@ from lib import *
 
 class mains:
 	global Hello
-	def Hello():
+	@classmethod
+	def Hello:
                 quit()
                 from login import *
 
-
+	@classmethod
 	def Tkwindow(self):
 
 		global master
@@ -29,7 +30,8 @@ class mains:
 
 
 	global quit
-	def quit():
+	@classmethod
+	def quit:
 		master.destroy()
 		os.system("exit")
 
