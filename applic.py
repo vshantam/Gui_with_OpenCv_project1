@@ -61,7 +61,5 @@ obj=ImagePro()
 root.geometry('{}x{}'.format(1080,480))
 btn = Button(root, text="Select an image", command=obj.App)
 btn.pack(side="bottom", fill="y", expand="no", padx="10", pady="10")
- 
 # kick off the GUI
 root.mainloop()
-
