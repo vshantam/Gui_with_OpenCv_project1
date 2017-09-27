@@ -6,7 +6,7 @@ failures=[]
 failure_max=3
 passwords=[('root','toor')]
 
-def check_cred:
+def check_cred():
 
 	print(username.get(), password.get())
 	if (username.get(), password.get()) in passwords:
