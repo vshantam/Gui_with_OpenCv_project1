@@ -6,7 +6,7 @@ failures=[]
 failure_max=3
 passwords=[('root','toor')]
 
-def check_cred():
+def check_cred:
 
 	print(username.get(), password.get())
 	if (username.get(), password.get()) in passwords:
@@ -22,12 +22,12 @@ def check_cred():
         		master.title('Try again. Attempt %i/%i' % (sum(failures)+1, failure_max))
  
 
-def login():
+def login:
 	check_cred()
 
 
 global quit
-def quit():
+def quit:
 	master.destroy()
 
 
