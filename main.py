@@ -26,7 +26,3 @@ class mains(object):
 if __name__=='__main__':
 	ob=mains()
 	ob.Tkwindow()
-	
-
-	
-
