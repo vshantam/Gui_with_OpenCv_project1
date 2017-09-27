@@ -1,8 +1,9 @@
 from lib import *
-class mains:
-	global Hello
-	def Hello():
-                quit()
+
+class mains(object):
+	@classmethod
+	def Hello(self):
+                self.quit()
                 from login import *
 	@classmethod
 	def Tkwindow(self):
@@ -16,20 +17,18 @@ class mains:
 		global frame
 		frame = Frame(master)
     		frame.pack()
-    		button = Button(frame, text="Agree and Continue.", fg="blue",command=Hello)
-		button1=Button(frame,text='Exit',fg='red',command=quit)
+    		button = Button(frame, text="Agree and Continue.", fg="blue",command=self.Hello)
+		button1=Button(frame,text='Exit',fg='red',command=self.quit)
     		button.pack(side=LEFT)
 		button1.pack(side=RIGHT)
 		mainloop()
-	global quit
-	def quit():
+	@classmethod
+	def quit(self):
 		master.destroy()
 if __name__=='__main__':
-	
 	ob=mains()
 	ob.Tkwindow()
 	
 
 	
-
 
