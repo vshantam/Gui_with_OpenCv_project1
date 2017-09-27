@@ -2,7 +2,6 @@ from lib import *
 
 class mains:
 	global Hello
-	@classmethod
 	def Hello():
                 quit()
                 from login import *
