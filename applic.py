@@ -1,7 +1,7 @@
 from lib import *
 
 class ImagePro:
-
+	@classmethod
 	def App(self):
 		# grab a reference to the image panels
 		global panelA, panelB
