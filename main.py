@@ -1,14 +1,11 @@
 from lib import *
-
 class mains:
 	global Hello
 	def Hello():
                 quit()
                 from login import *
-
 	@classmethod
 	def Tkwindow(self):
-
 		global master
 		master=Tk()
 		master.geometry('{}x{}'.format(1080,480))
@@ -24,14 +21,9 @@ class mains:
     		button.pack(side=LEFT)
 		button1.pack(side=RIGHT)
 		mainloop()
-
-
-
-
 	global quit
 	def quit():
 		master.destroy()
-		os.system("exit")
 
 	
 
