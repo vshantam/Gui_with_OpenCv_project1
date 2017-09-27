@@ -2,6 +2,7 @@ from lib import *
 class ImagePro(object):
 	@classmethod
 	def App(self):
+		global panelA,panelB
 		# grab a reference to the image panels
 	# open a file chooser dialog and allow the user to select an input
 	# image
