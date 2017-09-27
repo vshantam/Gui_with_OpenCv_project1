@@ -24,10 +24,6 @@ class mains:
 	global quit
 	def quit():
 		master.destroy()
-
-	
-
-
 if __name__=='__main__':
 	
 	ob=mains()
