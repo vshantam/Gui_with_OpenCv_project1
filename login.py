@@ -3,6 +3,7 @@ failures=[]
 failure_max=3
 passwords=[('root','toor')]
 class Login(object):
+	@classmethod
 	def check_cred(self):
 		print(username.get(), password.get())
 		if (username.get(), password.get()) in passwords:
@@ -15,8 +16,10 @@ class Login(object):
 				master.destroy()
 			else:
         			master.title('Try again. Attempt %i/%i' % (sum(failures)+1, failure_max))
+	@classmethod
 	def login(self):
 		self.check_cred()
+	@classmethod
 	def kills(self):
 		master.destroy()
 objs=Login()
