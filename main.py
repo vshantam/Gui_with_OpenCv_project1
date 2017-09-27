@@ -1,5 +1,4 @@
 from lib import *
-
 class mains(object):
 	@classmethod
 	def Hello(self):
