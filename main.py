@@ -31,7 +31,7 @@ class mains:
 
 	global quit
 	@classmethod
-	def quit:
+	def quit():
 		master.destroy()
 		os.system("exit")
 
