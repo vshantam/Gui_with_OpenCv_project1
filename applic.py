@@ -21,8 +21,6 @@ class ImagePro(object):
 			else:
 				img=cv2.imread(path)
 				img1=cv2.imread(path)
-			img = cv2.imread(path)
-			img1=cv2.imread(path)
 			gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 			face_cascade=cv2.CascadeClassifier('C://Gui_with_OpenCv_project1/Haar_Cascade_Dataset/haarcascade_onfrtalface_default.xml')
 			eye_cascade=cv2.CascadeClassifier('C://Gui_with_OpenCv_project1/Haar_Cascade_Dataset/haarcascade_eye.xml')
