@@ -12,6 +12,15 @@ class ImagePro(object):
 		if len(path) > 0:
 		# load the image from disk, convert it to grayscale, and detect
 		# edges in it
+			imgs=Image.open(path)
+			if imgs.size > (480,300):
+				img=cv2.imread(path)
+				img=cv2.resize(img,(450,280))
+				img1=cv2.imread(path)
+				img1=cv2.resize(img1,(450,280))
+			else:
+				img=cv2.imread(path)
+				img1=cv2.imread(path)
 			img = cv2.imread(path)
 			img1=cv2.imread(path)
 			gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
