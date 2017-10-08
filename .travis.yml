@@ -1,8 +1,0 @@
-
-
-language: python  #1
-python :
-	-"stable"
-install:
-	- "pip -r install requirements.txt"
-scripts: python main.py
